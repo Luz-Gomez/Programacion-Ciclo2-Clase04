@@ -1,6 +1,6 @@
 package co.edu.utp.misiontic2022.c2;
 
-public class Ficha {
+public abstract class Ficha {
     String color;
 
     public Boolean comer() {
@@ -8,8 +8,5 @@ public class Ficha {
         return null;
     }
     
-    public Boolean mover() {
-
-        return null;
-    }
+    public abstract Boolean mover() ; 
 }
